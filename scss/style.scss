@@ -1,0 +1,67 @@
+@import 'config';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+.showcase {
+  background: url('../img/background.png') no-repeat;
+  width: 100%;
+  height: 820px;
+
+  #logo {
+    width: 220px;
+    height: 65px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ul {
+    margin-left: 45em;
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    padding: 15px;
+    text-decoration: none;
+  }
+  button {
+    margin-left: 10em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $tetiary-color;
+  }
+
+  button {
+    margin: 0 35px;
+    background-color: #e5e5e5;
+  }
+
+  &-btn {
+    width: 191px;
+    height: 60px;
+    border-radius: 8px;
+    color: $primary-color;
+  }
+
+  &-content {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+}
