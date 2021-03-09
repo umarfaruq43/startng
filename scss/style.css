@@ -19,6 +19,7 @@ body {
 .showcase #logo {
   width: 220px;
   height: 65px;
+  padding-left: 1em;
 }
 
 .showcase nav {
@@ -49,7 +50,7 @@ body {
 
 .showcase button {
   margin: 0 35px;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .showcase-btn {
@@ -57,11 +58,89 @@ body {
   height: 60px;
   border-radius: 8px;
   color: #4387bf;
+  border: none;
 }
 
 .showcase-content {
-  width: 50%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.6;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
+}
+
+.showcase h1 {
+  max-width: 40%;
+  font-size: 60px;
+}
+
+.showcase p {
+  max-width: 26%;
+  font-weight: normal;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .main-content {
+  width: 100%;
+  display: flex;
+  margin: 2em 0;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.main-text {
+  max-width: 35%;
+  margin: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+.main p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card .card-content {
+  background-color: #e5e5e5;
+  width: 50%;
+  padding: 6em;
+  margin: 4em;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+}
+
+.card button {
+  max-width: 50%;
+  display: flex;
+  align-content: center;
+}
+
+.card-btn {
+  width: 140px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #4387bf;
+  border: none;
+  align-self: center;
 }
 /*# sourceMappingURL=style.css.map */
